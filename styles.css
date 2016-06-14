@@ -1,0 +1,46 @@
+ul.octodex{
+	width: 80%;
+	padding: 0px;
+}
+
+img{
+	height: 200px;
+	width: 200px;
+}
+
+.octocat{
+	list-style: none;
+	float: left;
+	margin: 10px;
+	border-bottom: 1px solid black;
+}
+.image-number{
+	float: left;
+	
+}
+
+.image-caption{
+	float: right;
+}
+span a{
+	float: right;
+}
+
+.authors{
+	display: inline;
+	float: right;
+}
+.authors li{
+	list-style: none;
+	display: inline;
+	float: right;
+
+}
+
+.authors li img{
+	height: 20px;
+	width: 20px;
+
+}
+
+
