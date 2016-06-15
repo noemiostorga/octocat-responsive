@@ -33,6 +33,10 @@ span{
 	
 }
 
+.image-number:before{
+	content: "#";
+}
+
 .image-caption{
 	float: right;
 }
