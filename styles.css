@@ -1,18 +1,32 @@
+/***********
+FLOATS
+*********/
 ul.octodex{
 	width: 80%;
 	padding: 0px;
 }
 
 img{
-	height: 200px;
-	width: 200px;
+	height: 300px;
+	width: 300px;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bolder;
+	color: black;
+	font-family: sans-serif;
+}
+span{
+	font-family: sans-serif;
+	color: grey;
 }
 
 .octocat{
 	list-style: none;
 	float: left;
 	margin: 10px;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid grey;
 }
 .image-number{
 	float: left;
@@ -22,18 +36,27 @@ img{
 .image-caption{
 	float: right;
 }
+
+.image-caption{
+	display: inline;
+}
 span a{
 	float: right;
+}
+ul.authors{
+	padding: 0px;
 }
 
 .authors{
 	display: inline;
 	float: right;
+
 }
 .authors li{
 	list-style: none;
 	display: inline;
 	float: right;
+	margin-left: 10px;
 
 }
 
@@ -42,5 +65,66 @@ span a{
 	width: 20px;
 
 }
+
+/****************
+flexbox
+****************/
+
+/*.octocat{
+	list-style: none;
+	flex-wrap: wrap;
+}
+
+
+img{
+	height: 300px;
+	width: 300px;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bolder;
+	color: black;
+	font-family: sans-serif;
+}
+span{
+	font-family: sans-serif;
+	color: grey;
+}
+
+.authors li{
+	list-style: none;
+}
+
+.authors img{
+	height: 20px;
+	width: 30px;
+}
+
+.image-number{
+	flex-wrap: wrap;
+}
+
+.image-caption{
+	display: flex;
+}
+
+.image-footer{
+	display: flex;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
